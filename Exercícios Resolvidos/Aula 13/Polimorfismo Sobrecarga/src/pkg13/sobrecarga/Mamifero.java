@@ -1,0 +1,14 @@
+package pkg13.sobrecarga;
+
+/**
+ *
+ * @author daniel
+ */
+public class Mamifero extends Animal {
+    protected String corPelo;
+
+    @Override
+    public void emitirSom() {
+        System.out.println("Som de mamifero.");
+    }
+}
